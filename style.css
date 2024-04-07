@@ -1,0 +1,111 @@
+*{
+    /* font-family: 'gilroy'; */
+    /* font-family: "josh"; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0.1px;
+}
+#main{
+    /* position: relative; */
+    overflow: hidden;
+    background-color: #133ACD;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+#page1 #nav{
+    margin-top: -128vh;
+    position: absolute;
+}
+#page1>#c1{
+ 
+    position: absolute;
+    margin-top: -100vh;
+    margin-left: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+}
+#page1>#c1>h1{
+       font-size: 6vw ;
+       font-weight: 100;
+    }
+#page1>#c1>p{
+    text-align: start;
+    font-size: 17px ;
+    gap: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+    width: fit-content;
+}
+#page1>#c1>button{
+    background-color: #fff;
+    color: rgb(46, 46, 228);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: medium;
+    text-transform: capitalize;
+    margin-left: 70%;
+    margin-top: -190vh;
+}
+#page2{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(10,61,207);
+    z-index: 4;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#page2>#t1{
+    font-size: large;
+    font-weight: 400;
+    color: #dadada32;
+    text-align: start;
+    margin-left: -10%;
+    margin-top: 10%;
+}
+#page2 h1{
+    font-size: 4vw;
+    letter-spacing: -2px;
+    line-height: 5vw;
+    color: #dadada61;
+    width: 80vw;
+    font-weight: 100;
+    margin-left: -10%;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page4>#t1{
+    font-size: large;
+    font-weight: 400;
+    color: #dadada32;
+    text-align: start;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    margin-top: 10%;
+}
+#page4 h1{
+    font-size: 4vw;
+    letter-spacing: -2px;
+    line-height: 5vw;
+    color: #dadada61;
+    width: 80vw;
+    font-weight: 100;
+    margin-left: 10%;
+}
